@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Manar Wakaf</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<header>
+    <div class="navbar">
+        <div class="nav-judul">
+            <h1>Al-Manar</h1>
+        </div>
+    
+        <div class="nav-menu">
+            <ul>
+                <li>Home</li>
+                <li>Zakat</li>
+                <li>Infaq</li>
+                <li>Sedekah</li>
+                <li>Wakaf</li>
+                <li>Masuk</li>
+            </ul>
+        </div>
+    </div>    
+</header>
+<body>
+    <div class="background">
+    <div class="konten">
+        <h1 class="headingtext">WAKAF</h1>
+     <div class="textbox-heading"><p>
+        Mulai tabungan akhirat dengan Amal Jariah anda
+        melalui Wakaf untuk pembangunan masjid 
+        dan pembangunan Sekolah.</p>
+        </div>
+    </div>
+    <form class="boxwakaf">
+        <h3>Ayo mulai wakaf</h3>
+        <br>
+        <div class="tipewakaf">
+            <P>Tipe Wakaf</P>
+            <select name="Mata Kuliah">
+                <option value='WD'>Wakaf Diam</option>
+                <option value='WR'>Pemrograman Berbasis Objek</option>
+                <option value='WA'>Data mining</option>
+                </select>
+            <br>
+            <p>Jenis Wakaf</p>
+            <select name="Mata Kuliah">
+                <option value='IT'>Uang Tunai</option>
+                <option value='TR'>Transfer</option>
+                <option value='DM'>Data mining</option>
+                </select>
+            <br>
+            <p>Nominal</p>
+            <input type="number" placeholder="Nominal" id="nominal">
+            <br>
+            <input type="button" value="Wakaf Sekarang" id="tombolsubmit">          
+        </div>
+        </div>          
+    </form>
+    <section class="datawakaf">
+        <div>
+            <i class="fa-regular fa-handshake fa-5x"></i>
+            <h2>Rp. 35.169.832</h2>
+            <p>
+                Penerima Manfaat
+            </p>
+        </div>
+        <div>
+            <i class="fa-solid fa-hand-holding-heart fa-5x"></i>
+            <h2>Rp. 735.534.000</h2>
+            <p>
+                Penghimpunan
+            </p>
+        </div>
+        <div>
+            <i class="fa-solid fa-hand-holding-dollar fa-5x"></i>
+            <h2>Rp. 705.325.000</h2>
+            <p>
+                Penyaluran
+            </p>
+        </div>
+        <div>
+            <i class="fa-solid fa-person fa-5x"></i>
+            <h2>132</h2>
+            <p>
+                Donatur
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="program-wakaf">
+            <div class="judul-section">
+                <h1>Program Wakaf</h1>
+            </div>
+            <div class="box">
+                <div class="kolom">
+                    <img src="source/masjid.png">
+                    <h4>Bantu Pembangunan Masjid Al-Mananar</h4>
+                    <p>Wiyung, Surabaya</p>
+                    <br>
+                    <a class="tombol-ikut-wakaf" href="#">Ikut Wakaf</a>
+                </div>
+                <div class="kolom">
+                    <img src="source/lahan.png">
+                    <h4>Bantu Pembukaan Lahan Untuk Pembangunan masjid</h4>
+                    <p>Wiyung, Surabaya</p>
+                    <br>
+                    <a class="tombol-ikut-wakaf" href="#">Ikut Wakaf</a>
+                </div>
+                <div class="kolom">
+                    <img src="source/sd.png">
+                    <h4>Bantu Pembangunan Sekolah Dasar Al-Manar</h4>
+                    <p>Wiyung, Surabaya</p>
+                    <br>
+                    <a class="tombol-ikut-wakaf" href="#">Ikut Wakaf</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="judul-section">
+        <h1>Berita</h1>
+    </div>
+    <section class="berita">
+        <ul class="slides">
+            <input type="radio" name="radio-btn" id="img-1" checked/>
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="source/slide/masjid1.png"/>
+                    <p>Penyaluran Wakaf tanah untuk pembangunan masjid Al manar 2 di Surabaya Selatan.</p>
+                    <input type="button" value="Sample Button" />
+                </div>
+            <div class="nav">
+              <label for="img-3" class="prev">&#x2039;</label>
+              <label for="img-2" class="next">&#x203a;</label>
+            </div>
+            </li>
+            <input type="radio" name="radio-btn" id="img-2" />
+            <li class="slide-container">
+                <div class="slide">
+                  <img src="source/slide/masjid2.png" />
+                  <p>Pembangunan masjid Al-Manar di Candi, Sidoarjo.</p>
+                  <input type="button" value="Sample Button" />
+                </div>
+            <div class="nav">
+              <label for="img-1" class="prev">&#x2039;</label>
+              <label for="img-3" class="next">&#x203a;</label>
+            </div>
+            </li>
+            <input type="radio" name="radio-btn" id="img-3" />
+            <li class="slide-container">
+                <div class="slide">
+                  <img src="source/slide/masjid3.png" />
+                  <p>Pembangunan masjid Al-Manar di Gedangan, Sidoarjo</p>
+                  <input type="button" value="Sample Button" />
+                </div>
+            <div class="nav">
+              <label for="img-2" class="prev">&#x2039;</label>
+              <label for="img-1" class="next">&#x203a;</label>
+            </div>
+            </li>
+            <li class="nav-dots">
+              <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+              <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+              <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer-distributed">
+      <div class="footer-right">
+        <i class="bi bi-r-circle-fill"></i>
+        <i class="bi bi-1-circle-fill"></i>
+        <i class="bi bi-airplane-fill""></i>
+        <i class="bi bi-apple"></i>
+      </div>
+      <div class="footer-left">
+        <p class="footer-links">
+          <a class="link-1" href="#">Home</a>
+          <a href="#">Zakat</a>
+          <a href="#">Infaq</a>
+          <a href="#">Sedekah</a>
+          <a href="#">Wakaf</a>
+          <a href="#">Kontak</a>
+        </p>
+        <p>Rafly Akbar &copy; 2022</p>
+        <p>Al-Manar &copy; 2022</p>
+      </div>
+    </footer>
+</body>
+</html>
